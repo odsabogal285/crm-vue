@@ -6,7 +6,7 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'inicio',
+      name: 'listado-clientes',
       component: ClientesView,
       props: { titulo: 'Listados de Clientes' }
     },
@@ -15,6 +15,12 @@ const router = createRouter({
       name: 'agregar-cliente',
       component: () => import('../views/NuevoClienteView.vue'),
       props: { titulo: 'Agregar Cliente' }
+    },
+    {
+      path: '/editar-cliente/:id',
+      name: 'editar-cliente',
+      component: () => import('../views/EditarClienteView.vue'),
+      props: { titulo: 'Editar Cliente' }
     }
   ]
 })

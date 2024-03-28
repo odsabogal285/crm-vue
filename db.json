@@ -1,0 +1,24 @@
+{
+  "clientes": [
+    {
+      "nombre": "Oscar ",
+      "apellido": "Sabogal",
+      "email": "oscarsabogal285@gmail.com",
+      "telefono": "333-333-3333",
+      "empresa": "OTF",
+      "puesto": "Desarrollador",
+      "estado": false,
+      "id": "c040"
+    },
+    {
+      "id": "c042",
+      "nombre": "Paula",
+      "apellido": "Rodriguez",
+      "email": "oscarsabogal285@gmail.com",
+      "telefono": "333-333-3333",
+      "empresa": "TRAVEL",
+      "estado": false,
+      "puesto": "Asistente Operacional"
+    }
+  ]
+}
